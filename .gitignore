@@ -1,2 +1,16 @@
-**/.idea/
-**/out/
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+
+# IntelliJ IDEA files
+out/
+.idea/
+
+# VS Code #
+.vscode/
+
+# Mac OSX #
+.DS_Store
