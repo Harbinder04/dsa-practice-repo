@@ -1,8 +1,8 @@
 
 
 public class BST {
-    public class Node {
-        private int value;
+    public static class Node {
+        private final int value;
         private int height;
         private Node left;
         private Node right;

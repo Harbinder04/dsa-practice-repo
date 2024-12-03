@@ -46,8 +46,8 @@ import java.util.Scanner;
                 return;
             }
             System.out.println(indent + node.value);
-            display(node.left, indent + "\t");
-            display(node.right , indent + "\t");
+            display(node.left, indent + "\t\t");
+            display(node.right , indent + "\t\t");
         }
 
         public void prettyDisplay(){
